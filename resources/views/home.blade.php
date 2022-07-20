@@ -8,7 +8,7 @@
         </div>
         <div class="col-9 pt-5">
             <div class="">
-                <h1>makkaoui.khadija</h1>
+                <h1>{{ $user->userName}}</h1>
             </div>
            <div class="d-flex justify-content-between w-50">
                 <div class="pr-5">
