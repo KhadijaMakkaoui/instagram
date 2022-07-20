@@ -21,10 +21,10 @@
                     <strong>351</strong> abonnements
                 </div>
            </div>
-           <div class="pt-4 fw-bold">Khadija Makkaoui</div>
-           <div class="">Hey! I am Khadija from Marrakesh, Morocco</div>
+           <div class="pt-4 fw-bold">{{$user->profile->title }}</div>
+           <div class="">{{$user->profile->description }}</div>
            <div class="">
-            <a href="">https://github.com/KhadijaMakkaoui</a>
+            <a href="">{{$user->profile->url}}</a>
            </div>
         </div>
     </div>
