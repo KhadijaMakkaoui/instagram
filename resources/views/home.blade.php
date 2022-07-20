@@ -7,8 +7,9 @@
             <img src="/svg/profile.jpg" class="rounded-circle">
         </div>
         <div class="col-9 pt-5">
-            <div class="">
+            <div class="d-flex justify-content-between align-items-baseline">
                 <h1>{{ $user->userName}}</h1>
+                <a href="">Add New Post</a>
             </div>
            <div class="d-flex justify-content-between w-50">
                 <div class="pr-5">
