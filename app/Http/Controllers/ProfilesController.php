@@ -14,11 +14,14 @@ class ProfilesController extends Controller
      */
     public function index(User $user)
     {
-      
-        $user=User::findOrFail($user);
-        
+        $users = User::all();
+ 
+        $userFound = $users->find($user->id);
+        // $user=User::findOrFail($user);
+        // var_dump($userFound);
+        // exit;
         return view('profiles.index',[
-            'user' => $user 
+            'user' => $userFound 
         ]);
     }
 }
